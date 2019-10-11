@@ -1,11 +1,11 @@
- "#Home Office" 
+ "#HomeOfficeSoftWareProject Demo - Senior Test Engineer " 
   Pre-requisites - Docker, Maven, Git, Real VNC viewer
-  Import this project to a folder using Git pull.
-  To run the tests - Go to the command line inside the AdaptavistTest folder and issue the following command in one line.
-  > docker-compose up -d &&
-  > mvn test
+  1.Import this project to a local folder using Git clone.
+  2.To run the project - Go to the command line inside the HomeOfficeSoftWareTestProject folder and issue the following command in one line.
+  > docker-compose up -d && mvn test
   
-  Note:Please look in my setUp function, their is are two initialise options, use  initialise(no VNC viewer required), or intialiseRemote (VNC viewer required). 
+  Note:Please look in my setUp function, their is are two project initialise options, use  initialise(no VNC viewer required), or intialiseRemote(browserType) (VNC viewer required).
+       Make this configuration before issueing the above commands.  
             
 
   
